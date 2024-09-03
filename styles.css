@@ -1,0 +1,655 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar .logo
+{
+    width: 130px;
+    cursor: pointer;
+}
+nav {
+    background-color: #333;
+}
+.header
+{
+    width:100%;
+  font-size: 18px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.navbar {
+
+    background-image: url("https://i.ytimg.com/vi/bOwsLtwa2Ts/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGGUgZShlMA8=&rs=AOn4CLDgXjVO-ji6dxBZkzYcc8LtABMKIA");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px 0px 0em;
+}
+
+.nav-item {
+    position: relative;
+}
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+.nav-item a:hover {
+    color: yellow;
+    background-color: #575757;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 160px;
+    z-index: 1000;
+}
+
+.dropdown-menu li {
+    border-bottom: 1px solid #575757;
+}
+
+.dropdown-menu li a {
+    color: white;
+    padding: 10px 15px;
+    display: block;
+}
+
+.dropdown-menu li a:hover {
+    color:yellow;
+    background-color: #575757;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.background {
+  
+    width: 100%;
+    height: 400px; /* Set the height you need */
+    background: linear-gradient(to top,rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.background img{
+  height: 75vh;
+    width: 100%;
+}
+.intro button{
+  max-width: 180px;
+  margin-right: 10px;
+    background-color: rgb(93, 93, 236);
+    color: white;
+    border-radius: 10px;
+    top: 165px;
+    border: transparent;
+    cursor: pointer;
+    text-decoration: none;
+}
+.intro button:hover{
+    background-color: rgb(247, 247, 117);
+    color: black;
+}
+nav button
+{
+   
+    border: 0;
+    outline: 0;
+    background:black;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+nav button:hover{
+    color: yellow;
+    background-color: #575757;
+}
+
+.language-btn .bttn:hover{
+
+    background-color: yellow;
+}
+/*      col or center content    */
+.main image{
+background-size: cover;
+position: fixed;
+
+}
+.col {
+  top: 153px;
+  right:0px;
+margin-left: 13rem;
+  position: absolute;
+  padding-right: 15px;
+    justify-content: right;
+    cursor: pointer; 
+color: aliceblue;
+}
+.col h2{
+    color: yellow;
+}
+.col p i{
+    letter-spacing: 10px;
+}
+.col1{
+    margin-left: 552px;
+    align-items: center;
+}.flex-container {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color:white;  
+    flex-wrap:wrap;
+
+
+}
+.flex-container1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: right;
+    background-color:white;  
+    flex-wrap:wrap;
+    margin-left: 556px;
+ 
+}
+
+.text-col{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+   color: #ddd;
+}
+.flex-item {
+    margin: 30px;
+width: 325px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: white;
+   
+    color: black;
+   
+    font-size: 18px;
+    transition: all 0.5s ease;
+}
+.flex-item h2{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex-item p{
+    font-size: medium;
+}
+
+.flex-item img{
+    width: 100%;
+    height: auto;
+}
+.flex-container:hover .flex-item {
+    flex: 2;
+    color:rgb(0, 0, 0);
+    background-color:rgb(162, 162, 255);
+    transition: 1s;
+}.flex-container1:hover .flex-item {
+    flex: 2;
+    color:black ;
+    background-color:rgb(162, 162, 255);
+}
+.flex-container2:hover .flex-item {
+    flex: 2;
+    color:black ;
+    background-color:rgb(162, 162, 255);
+}
+.features{
+    align-items: center;
+   
+}
+.main-container{
+    background: url("https://zrtechsolutions.com/demo/html/technoit/assets/images/features.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:initial ;
+    max-width: fit-content;
+}
+
+.text-col
+{margin-top: 20px;
+    padding-right: 12px;
+    padding-left: 12px;
+  display:block;
+    flex-basis: 50%;
+
+    border: #333;
+    border-width: 10px;
+}
+.col1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    align-items: center;
+}
+#center{
+    padding-left: 318px;
+    padding-top: 58px;
+}
+.img1{
+    align-items: center;
+    width: 20%;
+    height: 20%;
+    background-position: 0%;
+
+}
+/*         card css */
+
+.card-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap;
+
+}
+.card {
+width:250px;
+height: 420px;
+  border-radius: 8px;
+ padding: 30px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+   margin: 20px;
+    color:black;
+    font-size: 15px;
+    transition: all 0.5s ease;
+    overflow:inherit;
+}
+.card-content{
+padding: 16px;
+}
+.card-content h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-content p{
+    font-size: medium;
+}
+.card-content img{
+    width: 5%;
+    height: 5%;
+}
+.flex-container:hover .flex-content{
+    flex: 2;
+    color:black ;
+    background-color:rgb(162, 162, 255);
+}
+.col2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    align-items: center;
+}
+.col1 p{
+  color: #b8651d;
+}
+.col1 h2{
+color: blue;
+align-items: center;
+}
+.smallnav{
+  text-align: center;
+  margin-left: 23em;
+}
+.smallnav ul{
+  
+    list-style: none;
+    padding: 0;
+
+    display: flex;
+    justify-content:flex-start;
+
+}
+
+
+.smallnav li {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+
+}
+
+.smallnav li:hover {
+    color: yellow;
+}
+.smallnav button{
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 10px;
+    border:transparent;
+    cursor:pointer;
+    width: 110px;
+}
+.smallnav button:hover{
+background-color: yellow;
+color: black;
+transition: 0.5s;
+} 
+.wrapper{
+    max-width: 1050px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .wrapper .table{
+    background: #fff;
+    width: calc(33% - 20px);
+    padding: 10px 10px;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  }
+  .table .price-section{
+    display: flex;
+    justify-content: center;
+  }
+  .table .price-area{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    padding: 2px;
+  }
+  .price-area .inner-area{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    line-height: 117px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+  }
+  .price-area .inner-area .text{
+    font-size: 25px;
+    font-weight: 400;
+    position: absolute;
+    top: -10px;
+    left: 17px;
+  }
+  .price-area .inner-area .price{
+    font-size: 45px;
+    font-weight: 500;
+    margin-left: 16px;
+  }
+  .table .package-name{
+    width: 100%;
+    height: 2px;
+    margin: 35px 0;
+    position: relative;
+  }
+  .table .package-name::before{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 25px;
+    font-weight: 500;
+    background: #fff;
+    padding: 0 15px;
+    transform: translate(-50%, -50%);
+  }
+  .table .features li{
+    margin-bottom: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  .features li .list-name{
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .features li .icon{
+    font-size: 15px;
+  }
+  .features li .icon.check{
+    color: #2db94d;
+  }
+  .features li .icon.cross{
+    color: #cd3241;
+  }
+  .table .btn{
+    width: 100%;
+    display: flex;
+    margin-top: 35px;
+    justify-content: center;
+  }
+  .table .btn button{
+    width: 80%;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .table .btn button:hover{
+    border-radius: 5px;
+  }
+  .basic .features li::selection{
+    background: #ffd861;
+  }
+  .basic ::selection,
+  .basic .price-area,
+  .basic .inner-area{
+    background: #ffd861;
+  }
+  .basic .btn button{
+    border: 2px solid #ffd861;
+    background: #fff;
+    color: #ffd861;
+  }
+  .basic .btn button:hover{
+    background: #ffd861;
+    color: #fff;
+  }
+  
+  .premium ::selection,
+  .premium .price-area,
+  .premium .inner-area,
+  .premium .btn button{
+    background: #a26bfa;
+  }
+  .premium .btn button:hover{
+    background: #833af8;
+  }
+  .ultimate ::selection,
+  .ultimate .price-area,
+  .ultimate .inner-area{
+    background: #43ef8b;
+  }
+  .ultimate .btn button{
+    border: 2px solid #43ef8b;
+    color: #43ef8b;
+    background: #fff;
+  }
+  .ultimate .btn button:hover{
+    background: #43ef8b;
+    color: #fff;
+  }
+  .basic .package-name{
+    background: #ffecb3;
+  }
+  .premium .package-name{
+    background: #d0b3ff;
+  }
+  .ultimate .package-name{
+    background: #baf8d4;
+  }
+  .basic .package-name::before{
+    content: "Basic";
+  }
+  .premium .package-name::before{
+    content: "Premium";
+    font-size: 24px;
+  }
+  .ultimate .package-name::before{
+    content: "Ultimate";
+    font-size: 24px;
+  }
+  @media (max-width: 1020px) {
+    .wrapper .table{
+      width: calc(50% - 20px);
+      margin-bottom: 40px;
+    }
+  }
+  @media (max-width: 698px) {
+    .wrapper .table{
+      width: 100%;
+    }
+  }
+  ::selection{
+    color: #fff;
+  }
+  .table .ribbon{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    overflow: hidden;
+  }
+  .table .ribbon::before,
+  .table .ribbon::after{
+    position: absolute;
+    content: "";
+    z-index: -1;
+    display: block;
+    border: 7px solid #4606ac;
+    border-top-color: transparent;
+    border-left-color: transparent;
+  }
+  .table .ribbon::before{
+    top: 0px;
+    right: 15px;
+  }
+  .table .ribbon::after{
+    bottom: 15px;
+    left: 0px;
+  }
+  .table .ribbon span{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    transform: rotate(-45deg);
+    width: 200px;
+    background: #a26bfa;
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    text-transform: uppercase;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+  }
+  .container5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 10px;
+    background: #647df9;
+  }
+/*----------faq----------*/
+.faq{
+  color:white;
+  padding: 10px 12%;
+  text-align: center;
+  font-size: 18px;
+}
+.faq h2{
+  font-weight: 500;
+  font-size: 40px;
+
+}
+.accordion{
+  margin: 60px auto;
+  width: 100%;
+  max-width: 750%;
+}
+.accordion li{
+  list-style: none;
+  width: 100%;
+  padding: 5px;
+}
+.accordion li label{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-size: 18px;
+  font-weight:500;
+  background: #303030;
+  margin-bottom: 2px;
+  cursor: pointer;
+  position: relative;
+}
+label::after{
+  content: '+';
+  font-size: 34px;
+  position: absolute;
+  right: 20px;
+  transition: transform 0.5s;
+}
+input[type=radio]{
+  display: none;
+}
+.accordion .content{
+  background: #303030;
+text-align: left;
+padding: 0 20px;
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.5s,padding 0.5s;
+}
+.accordion input[type="radio"]:checked +label+.content{
+  max-height: 600px;
+  padding: 30px 20px;
+}
+.accordion input[type="radio"]:checked +label::after {
+  transform:rotate(135deg);
+}
+.email-signup input{
+  color: transparent;
+  border-radius: 10px;
+  height: 50px;
+  width: 300px;
+}
+.email-signup button{
+margin-left: 10px;
+  background-color: blue;
+  cursor: pointer;
+  color:white;
+  width: 90px;
+  height: 40px;
+  border-radius: 10px;
+  border:transparent;
+
+}
+.email-signup button:hover{
+  background-color: yellow;
+  color: black;
+}
